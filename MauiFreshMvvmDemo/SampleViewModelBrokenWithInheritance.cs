@@ -9,7 +9,7 @@ namespace MauiFreshMvvmDemo
     /// as it already declares the INotifyPropertyChanged interface MauiFreshMvvmDemo
     /// </summary>
     [INotifyPropertyChanged]
-    public partial class SampleViewModelBrokenWithInheritance : FreshMvvm.Maui.FreshBaseContentPage
+    public partial class SampleViewModelBrokenWithInheritance : FreshMvvm.Maui.FreshBasePageModel
     {
         [ObservableProperty]
         int _bla;

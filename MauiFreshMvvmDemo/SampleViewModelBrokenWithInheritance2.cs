@@ -8,7 +8,7 @@ namespace MauiFreshMvvmDemo
     /// But since the generator is relying on a precide OnPropertyChanged signature, that is not present in FreshBaseContentPage, it does not work
     /// Error CS1503  Argument 1: cannot convert from 'System.ComponentModel.PropertyChangedEventArgs' to 'string'	
     /// </summary>
-    public partial class SampleViewModelBrokenWithInheritance2 : FreshMvvm.Maui.FreshBaseContentPage
+    public partial class SampleViewModelBrokenWithInheritance2 : FreshMvvm.Maui.FreshBasePageModel
     {
         [ObservableProperty]
         int _bla;
